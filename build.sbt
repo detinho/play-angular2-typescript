@@ -1,6 +1,6 @@
 name := """play-angular2-typescript"""
 version := "0.2.0-beta.4"
-lazy val root = (project in file(".")).enablePlugins(PlayScala)
+lazy val root = (project in file(".")).enablePlugins(PlayJava)
 
 scalaVersion := "2.11.8"
 incOptions := incOptions.value.withNameHashing(true)

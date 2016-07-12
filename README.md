@@ -1,3 +1,5 @@
+Building on top of the fabulous work of @joost-de-vries from [play-angular2-typescript](https://github.com/joost-de-vries/play-angular2-typescript), this project is a Java Angular2 seed.
+
 #Play Angular2 Typescript sample application [![Build Status](https://travis-ci.org/joost-de-vries/play-angular2-typescript.png?branch=master)](https://travis-ci.org/joost-de-vries/play-angular2-typescript)
 
 This is an activator template that generates a sample Play Angular2 RC4 Typescript 2.0 application.

@@ -1,4 +1,4 @@
-name := """play-angular2-typescript"""
+name := """play-angular2-typescript-java"""
 version := "0.2.0-beta.4"
 lazy val root = (project in file(".")).enablePlugins(PlayJava)
 

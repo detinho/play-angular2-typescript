@@ -22,7 +22,7 @@
       ]
     },
     /* noImplicitAny when you want your typescript to be fully typed */
-    "noImplicitAny":true,
+    "noImplicitAny":false,
     "noFallthroughCasesInSwitch":true,
     "noImplicitReturns":true,
     "noImplicitThis":true,

@@ -1,11 +1,15 @@
-language: scala
+dist: trusty
 sudo: false
+language: java
 cache:
   directories:
   - $HOME/.ivy2
+env:
+  - NODE_VERSION=6
 scala:
   - 2.11.6
-script:
-  - sbt stage
 jdk:
   - oraclejdk8
+script:
+  - nvm use $NODE_VERSION
+  - sbt stage -DtsCompileMode=stage

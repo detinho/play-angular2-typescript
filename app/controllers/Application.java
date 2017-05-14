@@ -15,4 +15,12 @@ public class Application extends Controller {
         return ok(index1.render());
     }
 
+    public Result apiNotFound(String notFound) {
+        return notFound(notFound);
+    }
+
+    public Result other(String other) {
+        return index();
+    }
+
 }
